@@ -74,17 +74,20 @@ To extract insightful value from our dataset and proficiently address the Supers
 1. **Comprehensive Sales Performance and Profitability by Product Categories:**
    - A pivot table will be constructed, with the "Category" field placed in the Rows area and the "Sales" and "Profit" fields in the Values area.
    - This arrangement will deliver an illuminating breakdown of sales and profit across distinct categories, facilitating the identification of potential areas for growth.
+
 ![Comprehensive Sales Performance Table](pivotTable1.PNG)
 
 2. **Variation in Sales Figures Across States and Identification of Top Revenue-Contributing States:**
    - The "State" field will be positioned in the Rows area, with "Sales" in the Values area, enabling a thorough analysis of revenue distribution across states.
    - By scrutinizing this pivot table, we can discern patterns and spotlight states that make substantial revenue contributions to the enterprise.
+
 ![Variation in Sales across States Table](pivotTable2.PNG)
 
 3. **Identification of Seasonal Patterns and High-Low Sales Months:**
    - To unveil seasonal trends and highlight months with noteworthy sales fluctuations, we will incorporate the "Month" field in the Rows area and "Sales" in the Values area.
    - Given that a specific month column isn't available, we'll derive the month information from the order date column. A formula will be employed for this purpose: ``` =TEXT($B$2:$B$9993, "mmmm") ```
    - This pivot table configuration will empower us to visualize the undulations in monthly sales, aiding the identification of peak sales intervals and potential influencing factors.
+
 ![Seasonal Patterns, Monthly Sales Table](pivotTable3.PNG)
 
 4. **Customer Distribution across Diverse Regions:**
@@ -96,11 +99,13 @@ To extract insightful value from our dataset and proficiently address the Supers
 5. **Insights into Customer Segments and Their Impact on Sales and Profits:**
    - A pivot table will be fashioned, with the "Segment" field designated for the Rows area and the "Sales" field for the Values area.
    - This arrangement will provide a lucid representation of sales contributions from distinct segments, thereby facilitating the identification of areas primed for growth.
+
 ![Customer Segments Table](pivotTable5.PNG)
 
 6. **Identification of Top-Spending Customers and Their Revenue Contribution:**
    - For a nuanced comprehension of customer behavior, we will integrate the "Customer Name" field in the Rows area, accompanied by "Sales" in the Values area.
    - This pivot table configuration will empower the segmentation and analysis of customer spending influence, serving as a springboard for precision-targeted marketing and sales initiatives.
+
 ![Top-Spending Customers Table](pivotTable6.PNG)
 
 Through the dynamic utilization of pivot tables, we are poised to extract profound insights from our sales data, unravel intricate patterns and trends, and empower our decision-making process. Pivot tables stand as an intuitive and user-friendly interface, adept at rapid data manipulation and interpretation, thereby catalyzing informed strategies for the Superstore business.
