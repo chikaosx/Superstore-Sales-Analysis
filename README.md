@@ -99,41 +99,45 @@ Through the dynamic utilization of pivot tables, we are poised to extract profou
 
 
 # Visualisation
-1. Our visualization demonstrates that, on average, females exhibit higher BMI, heart rate, blood pressure, cholesterol, and temperature in comparison to males.
+Visualizations encapsulate the essence of our dataset analysis, paving the way for informed decision-making and strategic planning within the Superstore business realm. Our visualizations succinctly depict the business insights gleaned from our dataset analysis, illuminating the solutions to our business problem. Our discoveries are outlined below:
 
-To create this visualization, we utilized the "Insert" feature in Excel and selected the column chart as our preferred visualization type. The data source for this visualization was derived from "PivotTable1." After setting up the chart, we carefully formatted it by removing the vertical axes, legend, and gridlines, as well as hiding any unnecessary buttons for a cleaner display.
+1. **Comprehensive Sales Performance and Profitability by Product Categories:**
+   - The Technology product category spearheaded the revenue chart with £836,154.03, accompanied by a noteworthy profit of £145,454.95.
+   - Office supplies, on the other hand, exhibited comparatively modest sales at £719,047.03, while furniture registered the least profit of £18,451.27.
 
-To highlight the categories with the highest and smallest averages, we employed color-coding. The highest average was emphasized using a green color, while the smallest average was distinguished with a red color.
+![Comprehensive Sales Performance](insert_image_link_here)
 
-![]()
+3. **Variation in Sales Figures Across States and Identification of Top Revenue-Contributing States:**
+   - A thorough state-wise analysis identified California as the revenue frontrunner, commanding an impressive £457,687.63.
+   - Further insights into the top 10 revenue-contributing states bolstered our understanding of geographical sales dynamics.
 
-2. Our visualization indicates that, on average, males are taller, while females have a higher weight.
+![Variation in Sales Figures](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/e554d451-5d00-402f-b262-47c445a09d99)
 
-To create this visualization, we utilized the "Insert" feature in Excel and selected the column chart as our preferred visualization type. The data source for this visualization was derived from "PivotTable2." After setting up the chart, we carefully formatted it by removing the vertical axes, legend, and gridlines, as well as hiding any unnecessary buttons for a cleaner display.
+5. **Identification of Seasonal Patterns and High-Low Sales Months:**
+   - A compelling seasonal pattern emerged from our investigation, with November boasting the zenith of sales performance at £352,461.07.
+   - In contrast, February experienced a notable sales nadir at £59,751.25. Stability prevailed between April and August.
 
-To highlight the categories with the highest and smallest averages, we employed color-coding. The highest average was emphasized using a green color, while the smallest average was distinguished with a red color.
-![]()
+![Seasonal Patterns](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/7f6acc85-9620-4226-827d-ca52d634a09c)
 
-3. The visualization reveals that the number of students with blood group B is the highest, while blood group A has the lowest count.
+7. **Customer Distribution across Diverse Regions:**
+   - A geographical lens unveiled the Western US as a predominant market, accommodating 3,204 customers, followed by the South with 1,620 customers.
+   - This distribution insight fuels a more nuanced approach to regional engagement.
 
-We created this visualization using the "Insert" feature in Excel and selected the column chart as our chosen visualization type. The data source for this visualization was taken from "PivotTable3." To enhance clarity, we formatted the chart by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons for a cleaner presentation.
+![Customer Distribution](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/51460576-e1c4-4e90-934f-07a749673840)
 
-To highlight the categories with the highest and lowest counts, we used color-coding. Blood group B, with the highest count, was represented in green, while blood group A, with the lowest count, was distinguished in red.
-![]()
+9. **Insights into Customer Segments and Their Impact on Sales and Profits:**
+   - A granular segmentation of customer types highlighted consumers as the sales frontrunners, amassing a substantial revenue of £1,161,401.34 and a robust profit of £134,119.21.
+   - In contrast, the home office segment lagged with a revenue of £429,653.13 and a profit of £60,298.68.
 
-4. The visualization indicates that the number of students who smoke is very small.
+![Customer Segments](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/f0d14593-f3f1-4efe-8456-e1ae69a4cc28)
 
-We created this visualization using the "Insert" feature in Excel and selected the column chart as our chosen visualization type. The data source for this visualization was taken from "PivotTable4." To improve the clarity of the chart, we formatted it by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons.
+11. **Identification of Top-Spending Customers and Their Revenue Contribution:**
+   - Our inquiry into top-spending customers uncovered Sean Miller as the vanguard, contributing a significant revenue of £25,043.05.
+   - This insight guides our focus on cultivating and nurturing key customer relationships.
 
-For highlighting purposes, we utilized green color to represent the category with the highest average, and red color to represent the category with the smallest average.
-![]()
+![Top-Spending Customers](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/48788db2-6c87-4bb1-9378-d29498e769c9)
 
-5. The visualization reveals that the number of students who have diabetes is also small.
 
-We created this visualization using the "Insert" feature in Excel, opting for the column chart as our preferred visualization type. The data source for this visualization was taken from "PivotTable5." To enhance the clarity of the chart, we formatted it by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons.
-
-To emphasize the categories with the highest and smallest averages, we utilized green color to represent the category with the highest average, while red color was used to distinguish the category with the smallest average.
-![]()
 
 # Conclusion
 This project has significantly expanded my proficiency in utilizing pivot tables, data cleaning, and data visualization techniques. I am eager to apply and further enhance these skills in my future endeavors.
