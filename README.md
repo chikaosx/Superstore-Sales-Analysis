@@ -118,37 +118,37 @@ Visualizations encapsulate the essence of our dataset analysis, paving the way f
    - The Technology product category spearheaded the revenue chart with £836,154.03, accompanied by a noteworthy profit of £145,454.95.
    - Office supplies, on the other hand, exhibited comparatively modest sales at £719,047.03, while furniture registered the least profit of £18,451.27.
 
-![Comprehensive Sales Performance]()
+![Comprehensive Sales Performance](Visualisation1.PNG)
 
 3. **Variation in Sales Figures Across States and Identification of Top Revenue-Contributing States:**
    - A thorough state-wise analysis identified California as the revenue frontrunner, commanding an impressive £457,687.63.
    - Further insights into the top 10 revenue-contributing states bolstered our understanding of geographical sales dynamics.
 
-![Variation in Sales Figures]()
+![Variation in Sales Figures](Visualisation2.PNG)
 
 5. **Identification of Seasonal Patterns and High-Low Sales Months:**
    - A compelling seasonal pattern emerged from our investigation, with November boasting the zenith of sales performance at £352,461.07.
    - In contrast, February experienced a notable sales nadir at £59,751.25. Stability prevailed between April and August.
 
-![Seasonal Patterns, Monthly Sales]()
+![Seasonal Patterns, Monthly Sales](Visualisation3.PNG)
 
 7. **Customer Distribution across Diverse Regions:**
    - A geographical lens unveiled the Western US as a predominant market, accommodating 3,204 customers, followed by the South with 1,620 customers.
    - This distribution insight fuels a more nuanced approach to regional engagement.
 
-![Customer Distribution]()
+![Customer Distribution](Visualisation4.PNG)
 
 9. **Insights into Customer Segments and Their Impact on Sales and Profits:**
    - A granular segmentation of customer types highlighted consumers as the sales frontrunners, amassing a substantial revenue of £1,161,401.34 and a robust profit of £134,119.21.
    - In contrast, the home office segment lagged with a revenue of £429,653.13 and a profit of £60,298.68.
 
-![Customer Segments]()
+![Customer Segments](Visualisation5.PNG)
 
 11. **Identification of Top-Spending Customers and Their Revenue Contribution:**
    - Our inquiry into top-spending customers uncovered Sean Miller as the vanguard, contributing a significant revenue of £25,043.05.
    - This insight guides our focus on cultivating and nurturing key customer relationships.
 
-![Top-Spending Customers]()
+![Top-Spending Customers](Visualisation6.PNG)
 
 
 
