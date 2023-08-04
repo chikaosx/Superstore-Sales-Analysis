@@ -50,13 +50,21 @@ Additionally, the dataset delves into intricate details concerning shipping mode
 The superstore dataset holds the potential to unveil critical insights across various domains, encompassing realms such as sales analytics, customer behavior assessment, inventory management, and the evaluation of promotional effectiveness. Its diverse array of attributes positions it as a powerful resource for drawing well-founded conclusions, devising strategic plans, and making informed decisions across a spectrum of business dimensions.
 
 # Data Cleaning
-To clean the dataset, I first conducted a thorough assessment of missing values in each column. It was observed that approximately 20,000 records were missing in each column, accounting for about 10% of the data, which is below the acceptable threshold of 40%. Hence, I opted to use the imputation method for data cleaning.
+To ensure the cleanliness of the dataset, a comprehensive evaluation was initially conducted to address any potential issues. Upon meticulous inspection, it was determined that the dataset exhibited completeness across all rows and columns, with no instances of missing values.
 
-As the dataset consists of both numerical and categorical data, they required distinct imputation approaches. For the numerical columns, which include age, height, weight, temperature, heart rate, blood pressure, and cholesterol, I decided to impute the missing values with the average value of each respective column. By doing so, we ensure minimal disruption to the overall statistical distribution.
+Subsequently, an examination for duplicate rows was undertaken, revealing one duplicate entry. Swift action was taken to rectify this, utilizing Excel's built-in "Remove Duplicates" function, resulting in the prompt elimination of the redundant record.
 
-However, for the BMI column, we employed a slightly different approach. To obtain the missing values, we performed data manipulation using the height and weight columns. As BMI is calculated using the formula BMI = kg/m^2, we first converted the height column from centimeters to meters. Subsequently, we applied the mathematical calculation as follows: BMI = weight / (Height(M) * Height(M)). This enabled us to derive accurate BMI values for the affected records.
+To confirm the accuracy of data values within each column. It came to light that the order date and ship date values exhibited a combination of date and text data types, potentially compromising the dataset's uniformity. An attempt was made to rectify this by utilizing Excel's "Text to Columns" feature, aiming to convert the entire column to date format. However, it was observed that certain date values were not successfully parsed during this process.
 
-Moving on to the categorical columns, such as gender, diabetes, blood type, and smoking, we utilized the Mode imputation technique. The Mode refers to the value that appears most frequently in each column. To determine the Mode, we obtained the unique values in each categorical column and used the =COUNTIF() function with a value in the column as a criteria. This process ensured that we assigned the most common value to the missing records, thereby preserving the integrity of the categorical distribution.
+To address this challenge effectively, a decision was made to leverage the capabilities of the R programming language. This involved the utilization of the `as.Date()` function, a fundamental tool for converting string-based entries to standardized date format. The process was implemented as follows: 
+
+```
+superstore$OrderDate <- as.Date(superstore$OrderDate, format = "%m/%d/%Y")
+```
+```
+superstore$ShipDate <- as.Date(superstore$ShipDate, format = "%m/%d/%Y")
+```
+Through this meticulous approach, the order and ship date columns were successfully reformatted, aligning with the desired date data type. This methodological combination of Excel's functionalities and the versatility of R programming ensured the dataset's cleanliness and enhanced its analytical integrity.
 
 # Data Manipulation
 - To compute the Average Values for Male and Female Students' Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol, we employed a Pivot table as follows:
