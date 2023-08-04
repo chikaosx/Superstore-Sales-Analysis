@@ -90,6 +90,7 @@ To extract insightful value from our dataset and proficiently address the Supers
 4. **Customer Distribution across Diverse Regions:**
    - Our pivot table design will involve the inclusion of the "Region" field in the Rows area, along with "Customer Name" in the Values area.
    - The outcome will present an informative tally of customers within each region, enabling a comprehensive understanding of customer distribution.
+
 ![Customer Distribution Table](pivotTable4.PNG)
 
 5. **Insights into Customer Segments and Their Impact on Sales and Profits:**
