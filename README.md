@@ -73,27 +73,33 @@ To extract insightful value from our dataset and proficiently address the Supers
 1. **Comprehensive Sales Performance and Profitability by Product Categories:**
    - A pivot table will be constructed, with the "Category" field placed in the Rows area and the "Sales" and "Profit" fields in the Values area.
    - This arrangement will deliver an illuminating breakdown of sales and profit across distinct categories, facilitating the identification of potential areas for growth.
+![Comprehensive Sales Performance Table]()
 
 2. **Variation in Sales Figures Across States and Identification of Top Revenue-Contributing States:**
    - The "State" field will be positioned in the Rows area, with "Sales" in the Values area, enabling a thorough analysis of revenue distribution across states.
    - By scrutinizing this pivot table, we can discern patterns and spotlight states that make substantial revenue contributions to the enterprise.
+![Variation in Sales across States Table]()
 
 3. **Identification of Seasonal Patterns and High-Low Sales Months:**
    - To unveil seasonal trends and highlight months with noteworthy sales fluctuations, we will incorporate the "Month" field in the Rows area and "Sales" in the Values area.
    - Given that a specific month column isn't available, we'll derive the month information from the order date column. A formula will be employed for this purpose: ``` =TEXT($B$2:$B$9993, "mmmm") ```
    - This pivot table configuration will empower us to visualize the undulations in monthly sales, aiding the identification of peak sales intervals and potential influencing factors.
+![Seasonal Patterns, Monthly Sales Table]()
 
 4. **Customer Distribution across Diverse Regions:**
    - Our pivot table design will involve the inclusion of the "Region" field in the Rows area, along with "Customer Name" in the Values area.
    - The outcome will present an informative tally of customers within each region, enabling a comprehensive understanding of customer distribution.
+![Customer Distribution Table]()
 
 5. **Insights into Customer Segments and Their Impact on Sales and Profits:**
    - A pivot table will be fashioned, with the "Segment" field designated for the Rows area and the "Sales" field for the Values area.
    - This arrangement will provide a lucid representation of sales contributions from distinct segments, thereby facilitating the identification of areas primed for growth.
+![Customer Segments Table]()
 
 6. **Identification of Top-Spending Customers and Their Revenue Contribution:**
    - For a nuanced comprehension of customer behavior, we will integrate the "Customer Name" field in the Rows area, accompanied by "Sales" in the Values area.
    - This pivot table configuration will empower the segmentation and analysis of customer spending influence, serving as a springboard for precision-targeted marketing and sales initiatives.
+![Top-Spending Customers Table]()
 
 Through the dynamic utilization of pivot tables, we are poised to extract profound insights from our sales data, unravel intricate patterns and trends, and empower our decision-making process. Pivot tables stand as an intuitive and user-friendly interface, adept at rapid data manipulation and interpretation, thereby catalyzing informed strategies for the Superstore business.
 
@@ -105,37 +111,37 @@ Visualizations encapsulate the essence of our dataset analysis, paving the way f
    - The Technology product category spearheaded the revenue chart with £836,154.03, accompanied by a noteworthy profit of £145,454.95.
    - Office supplies, on the other hand, exhibited comparatively modest sales at £719,047.03, while furniture registered the least profit of £18,451.27.
 
-![Comprehensive Sales Performance](insert_image_link_here)
+![Comprehensive Sales Performance]()
 
 3. **Variation in Sales Figures Across States and Identification of Top Revenue-Contributing States:**
    - A thorough state-wise analysis identified California as the revenue frontrunner, commanding an impressive £457,687.63.
    - Further insights into the top 10 revenue-contributing states bolstered our understanding of geographical sales dynamics.
 
-![Variation in Sales Figures](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/e554d451-5d00-402f-b262-47c445a09d99)
+![Variation in Sales Figures]()
 
 5. **Identification of Seasonal Patterns and High-Low Sales Months:**
    - A compelling seasonal pattern emerged from our investigation, with November boasting the zenith of sales performance at £352,461.07.
    - In contrast, February experienced a notable sales nadir at £59,751.25. Stability prevailed between April and August.
 
-![Seasonal Patterns](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/7f6acc85-9620-4226-827d-ca52d634a09c)
+![Seasonal Patterns, Monthly Sales]()
 
 7. **Customer Distribution across Diverse Regions:**
    - A geographical lens unveiled the Western US as a predominant market, accommodating 3,204 customers, followed by the South with 1,620 customers.
    - This distribution insight fuels a more nuanced approach to regional engagement.
 
-![Customer Distribution](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/51460576-e1c4-4e90-934f-07a749673840)
+![Customer Distribution]()
 
 9. **Insights into Customer Segments and Their Impact on Sales and Profits:**
    - A granular segmentation of customer types highlighted consumers as the sales frontrunners, amassing a substantial revenue of £1,161,401.34 and a robust profit of £134,119.21.
    - In contrast, the home office segment lagged with a revenue of £429,653.13 and a profit of £60,298.68.
 
-![Customer Segments](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/f0d14593-f3f1-4efe-8456-e1ae69a4cc28)
+![Customer Segments]()
 
 11. **Identification of Top-Spending Customers and Their Revenue Contribution:**
    - Our inquiry into top-spending customers uncovered Sean Miller as the vanguard, contributing a significant revenue of £25,043.05.
    - This insight guides our focus on cultivating and nurturing key customer relationships.
 
-![Top-Spending Customers](https://github.com/chikaosx/Superstore-Sales-Analysis/assets/125705035/48788db2-6c87-4bb1-9378-d29498e769c9)
+![Top-Spending Customers]()
 
 
 
